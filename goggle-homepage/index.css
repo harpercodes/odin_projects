@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.nav-bar {
+    grid-column: 3 / -1;
+    grid-row: 1 / 1;
+    place-self: center;
+}
+
+.search-logo {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.search-input {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    justify-self: center;
+}
+
+.add-shortcut {
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+    place-self: center;
+}
+
+.bottom-nav-bar {
+    grid-column: 3 / -1;
+    grid-row: 5 / 5;
+    place-self: center;
+}
+
+#profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#goggle-logo {
+    height: 100px;
+    width: 200px;
+}

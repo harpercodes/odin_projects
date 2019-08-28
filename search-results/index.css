@@ -1,0 +1,41 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#logo-image {
+    place-self: center;
+}
+
+#search-bar {
+    width: 100%;
+    place-self: center;
+}
+
+#search-enter {
+    place-self: center;
+}
+
+#search-choices {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+#search-result-title {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    align-self: end;
+}
+
+#search-result-url {
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+    align-self: start;
+}
+
+#search-result-description {
+    grid-column: 2 / 2;
+    grid-row: 5 / 5;
+    align-self: start;
+}
